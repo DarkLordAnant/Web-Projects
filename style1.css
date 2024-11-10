@@ -8,3 +8,22 @@ table, th, td{
 h2{
     color: red;
 }
+
+.flex-parent{
+    height: 200px;
+    width: 200px;
+    border: solid 10px red;
+    padding: 20px;
+    display: flex;
+}
+
+.flex-child{
+    height: 50px;
+    width: 50px;
+    border: solid 5px blue;
+    padding: auto;
+    margin: 4%;
+    display: inherit;
+    justify-content: center;
+    flex-direction: row;
+}
